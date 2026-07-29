@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ExploreWorld - Contact Us</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+
+  <header class="navbar">
+    <div class="logo"><img src="assets/logo.png" alt="logo" /></div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="destinations.html">Destinations</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="contact-form">
+    <h2>Contact Us</h2>
+
+    <form>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" required />
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" required />
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" required />
+
+      <!-- Preferred Destination -->
+      <label for="destination">Preferred Destination</label>
+      <select id="destination" required>
+        <option value="">-- Select a Destination --</option>
+        <option value="bali">Bali, Indonesia</option>
+        <option value="paris">Paris, France</option>
+        <option value="santorini">Santorini, Greece</option>
+        <option value="kyoto">Kyoto, Japan</option>
+        <option value="dubai">Dubai, UAE</option>
+        <option value="swiss">Swiss Alps</option>
+        <option value="maldives">Maldives</option>
+        <option value="newyork">New York City, USA</option>
+      </select>
+      <br>
+
+      <p><strong>Preferred Travel Month</strong></p>
+
+      <div class="radio-group">
+        <label><input type="radio" name="month" value="June"> June</label>
+        <label><input type="radio" name="month" value="July"> July</label>
+        <label><input type="radio" name="month" value="December"> December</label>
+      </div>
+
+      <div class="checkbox-group">
+        <label for="newsletter"><input type="checkbox" id="newsletter">Subscribe to our newsletter for travel deals and
+          updates.</label>
+      </div>
+
+      <label for="comments">Your Message</label>
+      <textarea id="comments" rows="4"></textarea>
+
+      <button type="submit" class="btn-primary">Submit</button>
+    </form>
+  </section>
+
+  <section class="faq">
+    <h3>Frequently Asked Questions</h3>
+
+    <details>
+      <summary>Is my booking refundable?</summary>
+      <p>Yes, 100% refund if canceled 7 days before travel.</p>
+    </details>
+
+    <details>
+      <summary>Are flights included in the package?</summary>
+      <p>Most of our packages include return flights. Please check the package details before booking.</p>
+    </details>
+
+    <details>
+      <summary>Can I customize my travel package?</summary>
+      <p>Yes, we offer customized itineraries based on your budget, destination, and travel preferences.</p>
+    </details>
+  </section>
+
+  <footer>
+    <p>ExploreWorld &copy; 2025 | info@exploreworld.com</p>
+  </footer>
+
+</body>
+
+</html>
